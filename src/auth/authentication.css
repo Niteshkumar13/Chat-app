@@ -1,0 +1,58 @@
+.full-screen {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(209, 169, 247);
+    display: grid;
+    place-items: center;
+}
+
+.all-input-box-container {
+    width: 350px;
+    height: 400px;
+    background-color: rgb(139, 122, 226);
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    box-shadow: 1px 1px 5px black;
+}
+
+.child-container {
+    display: grid;
+    width: 320px;
+    place-items: center;
+    gap: 10px;
+    /* background-color: red; */
+}
+
+.profile-pic-for-user {
+    height: 100px;
+    width: 100px;
+}
+
+.child-container input[type="text"] {
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+button {
+    width: 96%;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+.welcome-to-chat{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

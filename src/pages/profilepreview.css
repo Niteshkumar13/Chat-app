@@ -1,0 +1,40 @@
+.image-name-mobile-full-container{
+    height: 92vh;
+    width: 284px;
+    position: absolute;
+    top: 8vh;
+    left: 0; 
+    background-color: rgb(225, 225, 228);
+    display: grid;
+    place-items: center;
+    transition: width .2s ease;
+    z-index: 10;
+}
+.cross-icons{
+    height: 30px;
+     width: 30px;
+     position: absolute;
+     right: 10px;
+     top: 0;
+    
+}
+.image-name-mobile{
+    display: grid;
+    place-items: center;
+    height: 200px;
+    width: 300px;
+}
+.image-name-mobile img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.image-name-mobile span{
+    font-size: 25px;
+    text-align: center;
+}
+@media screen and (max-width:426px){
+    .image-name-mobile-full-container{
+        width: 100vw;
+    }
+}

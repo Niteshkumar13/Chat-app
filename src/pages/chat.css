@@ -1,0 +1,362 @@
+.Cimageion {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+
+}
+.date-month-container{
+    clear: both;
+    display: grid;
+    place-items: center;
+    height: 40px;
+    padding: 5px;
+}
+.date-month{
+
+    background-color: hsla(0,0%,100%,0.95);
+    padding: 6px 15px;
+    border-radius: 5px;
+    font-size: 12.5px;
+    font-family:Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+}
+.message-document{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 7px 0;
+   width: 16vw;
+    border-radius: 10px;
+}
+audio{
+    margin-top: 4px;
+    margin-bottom: -4px;
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #d1f4cc;
+     color: white;
+     }
+.left_audio::-webkit-media-controls-play-button,
+.left_audio::-webkit-media-controls-panel {
+background-color:#f5f6f6;
+color: white;
+}
+.name-size-container{
+    width: 11vw;
+    display: grid;
+    align-items: center;
+    max-width: auto;
+    padding-left: 10px;
+}
+.name-size-container span:first-child{
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.file-size{
+    font-size: 13px;
+}
+.send-file-icon{
+    height: 40px;
+}
+.download-btn{
+    height: 40px;
+}
+.user-input-link{
+    text-decoration: none;
+    font-size: 18px;
+}
+.user-input-link:hover{
+    text-decoration: underline;
+}
+
+.image-time{
+    width: 100%;
+    color: white;
+    padding: 7px 0;
+    background-image:linear-gradient(to top,rgba(11,20,26,.5),rgba(11,20,26,0));
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+.video{
+    max-height: 360px;
+    max-width: 300px;
+    min-height: auto;
+    min-width: auto;
+    padding: 5px 0 0 0;
+  
+}
+.uploaded-image{
+    border-radius:7px;
+    background-size: cover;
+    background-position: center center;
+    background-size: 'cover';
+    background-repeat: 'no-repeat';
+    height: 360px;
+    width: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin: 4px 0;
+    background-color: #F0F2F5;
+}
+.emoji-last-msg{
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.icon-last-msg{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: max-content;
+    margin: 2px 0;
+}
+.box-container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+.double-tick{
+    font-size: 25px;    
+}
+
+.message-container {
+    height: 84vh;
+    width: 63vw;
+    background-size: 300px;
+    background-image: url(D:\future_web\fronted\chat\src\pages\theme\image.png);
+    background-blend-mode:overlay;
+    opacity: .99;
+    overflow-y: auto;
+
+}
+.message-container::before{
+    content: '';
+    background-color: red;
+    height: 84vh;
+    width: 63vw;
+}
+
+.message-container::-webkit-scrollbar {
+    width: 4px;
+}
+.message-container::-webkit-scrollbar-thumb {
+    background-color: rgb(94, 90, 90);
+
+}
+
+.send-msg-icon {
+    height: 27px;
+    width: 27px;
+}
+
+.image-container {
+    width: 50px;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.send-msg-icon:hover {
+    cursor: pointer;
+}
+
+.input-box {
+    width: 52vw;
+    height: 32px;
+    padding-left: 10px;
+    font-size: 1.3rem;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 5px;
+}
+.last-message {
+    color: #ff0000;
+  }
+
+.pickerStyle-container {
+    height: max-content;
+    width: max-content;
+    position: absolute;
+    bottom: 8vh;
+}
+
+.bottom-container {
+    width: 63vw;
+    display: flex;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    
+}
+
+.top-bottom {
+    display: grid;
+    place-items: center;
+    width: 63vw;
+    height: max-content;
+
+}
+
+.message {
+    
+    padding: 0 4px;
+    font-family: Segoe UI, Helvetica Neue, Helvetica, Lucida Grande, Arial, Ubuntu, Cantarell, Fira Sans, sans-serif;
+    font-size: 20px;
+    border-radius: 7px;
+    max-width: 40vw;
+    max-height: auto;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+.lefts{
+    background-color: #fff;
+    margin-left: 15px;
+}
+.rights{
+    background-color: #d9fdd3;
+    margin-right: 15px;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.emoji-icon {
+    font-size: 26px;
+}
+
+.date-time {
+    font-size: 10px;
+    display: flex;
+    justify-content: end;
+    padding-left: 6px;
+    padding-right: 3.4px;
+}
+
+@media screen and (max-width:426px) {
+    .top-bottom {
+        width: 100vw;
+    }
+    .name-size-container{
+        width: 19vw;
+    }
+    .message-document{
+        width: 50vw;
+    }
+    .message {
+        max-width: 60vw;
+    }
+    .message-container {
+        width: 100vw;
+    }
+   .video{
+    max-height: 270px;
+    min-height:70px;
+    
+    margin: 4px 0;
+    width: 200px;
+   }
+   audio{
+   width: 200px;
+}
+
+    .uploaded-image{
+        /* max-height: 70vh;
+        max-width: 60vw; */
+        height: 270px;
+        margin: 4px 0;
+        width: 200px;
+    }
+    .send-msg-icon {
+        height: 25px;
+        width: 25px;
+    }
+
+    .bottom-container {
+        width: 100vw;
+    }
+
+   
+
+    .input-box {
+        width: 64vw;
+    }
+
+    .image-container {
+        margin-left: 5px;
+    }
+
+    .emoji-icon {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:769px) and (min-width:426px) {
+    .top-bottom {
+        width: 100vw;
+    }
+    .message-document{
+        width: 30vw;
+    }
+    audio{
+        max-width: 255px;
+     }
+    .message{
+        max-width: 60vw;
+    }
+    .message-container {
+        width: 100vw;
+    }
+
+    .bottom-container {
+        width: 100vw;
+    }
+
+   
+
+    .input-box {
+        width: 70.5vw;
+    }
+    .video{
+        max-height: 300px;
+        max-width: 250px;
+        min-height: auto;
+        min-width: auto;
+        border-radius: 13px 13px 5px 5px;
+    }
+    .uploaded-image{
+       height: 300px;
+       width: 250px;
+       margin: 4px 0;
+    }
+    .image-container {
+        width: 40px;
+    }
+    .image-container img{
+        height: 30px;
+        width: 30px;
+    }
+}

@@ -1,0 +1,22 @@
+.dropdown-main-container{
+    position: absolute;
+    top:8vh;
+    right: 0;
+    display: grid;
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    z-index: 100;
+}
+span{
+    font-size: 17px;
+    font-family:Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+}
+.dropdown-main-container div{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.dropdown-main-container div:last-of-type span:hover{
+    text-decoration: underline;
+}

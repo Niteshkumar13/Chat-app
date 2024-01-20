@@ -1,0 +1,55 @@
+.logo-name {
+    height: 8vh;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+/* #f0f2f5 */
+.profile-name-container{
+    background-color:#707590 ;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    
+}
+
+.profile-pic {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.moon-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 230px;
+}
+.moon-container a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px 5px;
+    border-radius: 8px;
+}
+.moon-light{
+    height: 40px;
+    border-radius: 50%;
+}
+@media screen and (max-width:383px) {
+    .moon-light{
+        display: none;
+    } 
+    .a{
+        display: none;
+    }
+    .moon-container{
+        width: 100px;
+    }
+}
+@media screen and (max-width:769px) {
+    /* .moon-light{
+        display: none;
+    } */
+}
